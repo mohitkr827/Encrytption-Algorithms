@@ -26,7 +26,7 @@ void main()
         getch();
         exit(1);
     }
-    printf("\nENTER ANOTHER PRIME NUMBER\n");
+    printf("\nENTER SECOND PRIME NUMBER\n");
     scanf("%d", &q);
     flag = prime(q);
     if (flag == 0 || p == q)
